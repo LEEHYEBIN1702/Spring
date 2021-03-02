@@ -6,12 +6,13 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /*
  * VO : Value Object == EmpDTO, EmoDO, Emp 라고 부르기도 함..
  * DAO : Data Access Object
  */
-@Component
+@Repository //@Component 상속 
 public class EmpDAO {
 	
 	Connection conn;
