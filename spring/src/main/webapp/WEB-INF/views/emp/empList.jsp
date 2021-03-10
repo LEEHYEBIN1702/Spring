@@ -9,7 +9,7 @@
 </head>
 <body>
 <h3>사원목록</h3>
-<c:forEach items="${list }" var="emp">
+<c:forEach items="${list }" var="prd">
     ${emp.first_name } ${emp.email } ${emp.salary }<br>
 </c:forEach>
 </body>
